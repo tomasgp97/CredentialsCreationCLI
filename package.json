@@ -1,0 +1,28 @@
+{
+  "name": "user_creation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "create": "./lib/index.js"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.2.0",
+    "@types/node": "^14.6.2",
+    "inquirer": "^7.3.3",
+    "yargs": "^13.2.4",
+    "google-protobuf": "^3.12.2",
+    "grpc": "^1.24.3",
+    "@grpc/proto-loader": "^0.5.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^7.3.1",
+    "drivelist": "^9.1.0"
+  }
+}
